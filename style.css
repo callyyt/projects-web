@@ -1,0 +1,44 @@
+.container{
+    text-align: center;
+
+}
+h1{
+    font-size: 40px;
+    font-family: serif;
+    font-weight: 300;
+}
+#apps{
+    width: 100%;
+    height: 800px;
+    background-color: cornflowerblue;
+}
+#myCarousel{
+    background-color:deeppink;
+}
+#myCarousel img{
+    height: 300px;
+    margin-top: 35px;
+}
+#myCarousel inner p{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color:azure;
+    font-size: 20px;
+}
+#chatbot{
+    width: 100%;
+    height: 800px;
+    background-color:darkslateblue;
+}
+img{
+    transition:transform .2s; 
+}
+img:hover{
+    transform: scale(0.9);
+}
+.line{
+    height: 6px;
+        background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
